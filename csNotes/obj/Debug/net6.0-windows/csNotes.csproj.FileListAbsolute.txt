@@ -1,0 +1,17 @@
+D:\repos\csNotes\csNotes\bin\Debug\net6.0-windows\csNotes.exe
+D:\repos\csNotes\csNotes\bin\Debug\net6.0-windows\csNotes.deps.json
+D:\repos\csNotes\csNotes\bin\Debug\net6.0-windows\csNotes.runtimeconfig.json
+D:\repos\csNotes\csNotes\bin\Debug\net6.0-windows\csNotes.dll
+D:\repos\csNotes\csNotes\bin\Debug\net6.0-windows\csNotes.pdb
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.csproj.AssemblyReference.cache
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.Form1.resources
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.csproj.GenerateResource.cache
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.AssemblyInfoInputs.cache
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.AssemblyInfo.cs
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.csproj.CoreCompileInputs.cache
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.dll
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\refint\csNotes.dll
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.pdb
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\csNotes.genruntimeconfig.cache
+D:\repos\csNotes\csNotes\obj\Debug\net6.0-windows\ref\csNotes.dll
