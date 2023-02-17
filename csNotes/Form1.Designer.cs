@@ -32,12 +32,16 @@
             this.SaveButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
             this.FileName = new System.Windows.Forms.TextBox();
+            this.OpenFile = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // inputBox
             // 
             this.inputBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.inputBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.inputBox.DetectUrls = false;
+            this.inputBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.inputBox.Location = new System.Drawing.Point(12, 12);
             this.inputBox.Name = "inputBox";
             this.inputBox.Size = new System.Drawing.Size(1067, 339);
@@ -74,18 +78,33 @@
             this.FileName.TabIndex = 3;
             this.FileName.WordWrap = false;
             // 
+            // OpenFile
+            // 
+            this.OpenFile.Location = new System.Drawing.Point(523, 373);
+            this.OpenFile.Name = "OpenFile";
+            this.OpenFile.Size = new System.Drawing.Size(184, 33);
+            this.OpenFile.TabIndex = 4;
+            this.OpenFile.Text = "Open File";
+            this.OpenFile.UseVisualStyleBackColor = true;
+            this.OpenFile.Click += new System.EventHandler(this.OpenFile_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1091, 418);
+            this.Controls.Add(this.OpenFile);
             this.Controls.Add(this.FileName);
             this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.inputBox);
             this.ForeColor = System.Drawing.Color.Black;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "Low Quality Text Editor";
             this.ResumeLayout(false);
@@ -99,5 +118,7 @@
         private Button SaveButton;
         private Button ClearButton;
         private TextBox FileName;
+        private Button OpenFile;
+        private OpenFileDialog openFileDialog1;
     }
 }
